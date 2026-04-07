@@ -1,5 +1,5 @@
 {
-  "name": "sanctum-temp",
+  "name": "sanctum",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,40 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@auth0/ai": "^6.0.0",
+    "@auth0/ai-vercel": "^5.1.0",
+    "@auth0/nextjs-auth0": "^3.8.0",
+    "@radix-ui/react-avatar": "^1.1.11",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-separator": "^1.1.8",
+    "@radix-ui/react-switch": "^1.2.6",
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "@supabase/supabase-js": "^2.101.1",
+    "@types/uuid": "^10.0.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.38.0",
+    "jose": "^6.2.2",
+    "lucide-react": "^1.7.0",
+    "nanoid": "^5.1.7",
     "next": "16.2.2",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "reactflow": "^11.11.4",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.5.0",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.27",
     "eslint": "^9",
     "eslint-config-next": "16.2.2",
-    "tailwindcss": "^4",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
     "typescript": "^5"
   }
 }
